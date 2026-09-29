@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="docs/hero.webp" alt="Kasa Nord — Lima, por fin, en silencio" width="100%">
+  <a href="https://frankusqabant.github.io/kasa-nord/">
+    <img src="docs/hero.webp" alt="Kasa Nord — Lima, por fin, en silencio. Click para ver el sitio." width="100%">
+  </a>
 </p>
 
 # KASA NORD
