@@ -26,8 +26,9 @@ index.html            home completo (7 secciones)
 assets/css/tokens.css sistema de diseño: color, tipografía, espacio, motion
 assets/css/main.css   12 componentes
 assets/js/main.js     reveal on scroll, stagger de palabras, contadores
-assets/img/           44 fotos (Pixabay, sin atribución)
+assets/webp/          44 fotos en WebP, 2 anchos cada una (srcset)
 scripts/fetch.js      descargador de fotos por categoría
+scripts/convert-all.js  JPEG → WebP (2 anchos por foto)
 docs/hero.webp        captura del proyecto
 01-estrategia.md      documento de marca y arquitectura
 ```
@@ -46,6 +47,9 @@ python -m http.server 5173
 
 ## Detalles
 
+- **Peso de primera carga** ~300 KB en 8 peticiones (medido: 970 KB → 299 KB)
+- **Imágenes** 100% WebP, dos anchos por foto; `srcset` + `sizes` para que
+  el navegador descargue solo lo que necesita
 - **Fuentes** Cormorant Garamond + Inter + IBM Plex Mono, vía Google Fonts
 - **Fotografías** [Pixabay](https://pixabay.com) — licencia libre, sin atribución
 - **Tipografía de contenido** Inter; la serif es exclusivamente para display

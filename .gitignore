@@ -2,6 +2,14 @@
 .dl/
 .cdp-shot/
 
+# Source photography — 1280px JPEG masters from Pixabay, ~11 MB.
+# The site is 100% WebP: every published image lives in assets/webp/ in two
+# widths (1280 / 800) and the browser picks one via srcset, so a first visit
+# pulls ~300 KB instead of ~970 KB. These JPEG masters are never requested by
+# the site, so they stay local and out of the repo. Regenerate both sets with:
+#   node scripts/fetch.js && node scripts/convert-all.js
+assets/img/
+
 # node / tooling
 node_modules/
 package-lock.json
