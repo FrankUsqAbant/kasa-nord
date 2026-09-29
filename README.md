@@ -15,7 +15,7 @@ medición real de cada casa — decibeles, distancia al centro, horario de visit
 
 ## Ver en vivo
 
-🌐 **[kasa-nord.github.io](https://kasa-nord.github.io/)**
+🌐 **[frankusqabant.github.io/kasa-nord](https://frankusqabant.github.io/kasa-nord/)**
 
 ## Qué hay aquí
 
