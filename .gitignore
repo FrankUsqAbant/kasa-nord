@@ -1,0 +1,13 @@
+# build scratch — not part of the site
+.dl/
+.cdp-shot/
+
+# node / tooling
+node_modules/
+package-lock.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
